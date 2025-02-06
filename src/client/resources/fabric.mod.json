@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "secondary-click",
+    "version": "1.0.0",
+    "name": "Secondary Click",
+    "description": "This is a minecraft mod that adds secondary keybinds for left and right click.",
+    "authors": [
+        "0xDED"
+    ],
+    "contact": {
+        "homepage": "https://github.com/dedouwe26/SecondaryClick",
+        "issues": "https://github.com/dedouwe26/SecondaryClick/issues",
+        "sources": "https://github.com/dedouwe26/SecondaryClick"
+    },
+    "icon": "assets/secondary-click/icon.png",
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "oxded.secondaryclick.SecondaryClickClient"
+        ]
+    },
+    "mixins": [
+        "secondary-click.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*",
+        "fabric-key-binding-api-v1": "*"
+    }
+}
