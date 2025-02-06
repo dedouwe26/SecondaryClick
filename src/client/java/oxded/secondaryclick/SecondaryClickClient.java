@@ -1,7 +1,5 @@
 package oxded.secondaryclick;
 
-import java.io.Console;
-
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
